@@ -3,14 +3,13 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'dagger.hilt.android.plugin'
 }
-
 apply plugin: 'kotlin-kapt'
 
 android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.hpapp"
+        applicationId "com.example.character"
         minSdk 21
         targetSdk 32
         versionCode 1
